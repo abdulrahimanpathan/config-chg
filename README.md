@@ -33,7 +33,7 @@ You can run the following command to run the test cases.
     
 ## Code coverage report
 
-Following are code coverage report of ConfigController and ConfigService after writing test cases.
+Following are code coverage report of ConfigController(100% covered) and ConfigService(92.59% covered) after writing test cases.
 
 ![image](https://user-images.githubusercontent.com/23741487/140092989-c94fd6ee-ed31-489d-be9c-69537b1faf92.png)
 
