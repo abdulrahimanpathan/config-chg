@@ -14,10 +14,11 @@ class ConfigController extends Controller
     public function getConfig($key) {
         $configService = new ConfigService();
         $result = $configService->getConfigValue($key);
-        if($result)
-            return json_encode($result);
+        if($result) {
+            return response()->json($result, 200);
+        }
         else {
-            return json_encode('key not exist');
+            return response()->json('key not exist', 404);
         }
     }
 }

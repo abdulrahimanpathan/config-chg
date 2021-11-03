@@ -10,7 +10,7 @@ class ConfigService {
      * Return value based on key
      */
     public function getConfigValue($key) {
-        $path = '../fixtures/';
+        $path = base_path().'/fixtures/';
         $files = File::files($path);
         $config = [];
         $i = 0;
