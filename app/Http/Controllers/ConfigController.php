@@ -12,6 +12,7 @@ class ConfigController extends Controller
      * Return value based on key from config file
      */
     public function getConfig($key) {
+        //return getConfiguration($key);
         $configService = new ConfigService();
         $result = $configService->getConfigValue($key);
         if($result) {
