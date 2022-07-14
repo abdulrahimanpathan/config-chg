@@ -18,7 +18,7 @@ Once the application is setup in your local we can browse folowing url to get th
 
 http://127.0.0.1:8000/getConfig/{key}
 
-where key is the dot separated path used to retrieve parts of the configuration.
+where key is the dot separated path used to retrieve parts of the configuration
 
 ## Test cases
 
